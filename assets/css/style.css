@@ -1,0 +1,148 @@
+  body{
+              background-color: #de9e37;
+          }
+          .img23 {
+          border-radius: 50%;
+}
+          .education h3{
+              background-color: #2e303d;
+          }
+          
+          .project h3{
+              background-color: #2e303d;
+          }
+          
+          .references h3{
+              background-color: #2e303d;
+          }
+
+          .progress .progress-bar {
+    animation-name: animateBar;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: .4s;
+}
+@keyframes animateBar {
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(0);}
+}
+          
+      .circle-icon {
+    background: #de9e37;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    vertical-align: middle;
+          border: 1px solid black;
+/*    padding: 30px;*/
+}  
+          
+            .circle-icon1 {
+    background: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+    vertical-align: middle;
+          border: 1.5px solid #de9e37;
+/*    padding: 30px;*/
+}  
+          
+          @font-face {
+  font-family: myFirstFont;
+  src: url(file:///C:/Users/hp/Desktop/CodeBrew/Day%202/resume/assets/fonts/modernsans.ttf);
+}
+
+.font1 {
+  font-family: myFirstFont;
+}
+          
+              @font-face {
+  font-family: futuralight;
+  src: url(file:///C:/Users/hp/Desktop/CodeBrew/Day%202/resume/assets/fonts/FuturaLightfont.otf);
+}
+
+.font3 {
+  font-family: futuralight;
+}
+          
+              @font-face {
+  font-family: futuramedium;
+  src: url(file:///C:/Users/hp/Desktop/CodeBrew/Day%202/resume/assets/fonts/futuramediumbt.ttf);
+}
+
+.font2 {
+  font-family: futuramedium;
+}
+          
+          ul li::before {
+  content: "\2022";
+  color: #de9e37;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+          
+          .button {
+  border-radius: 4px;
+  background-color: #408fa9;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 130px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+          .img{
+             filter: drop-shadow(5px 5px 5px #222);
+          }
+          .img1{
+             filter: drop-shadow(5px 5px 5px #463939);
+          }
+
+.zoom { transition: all .2s ease-in-out; }
+.zoom:hover { transform: scale(1.1); }
+      
+          h1.ex2{
+              font-weight:600;font-size: 50px;
+          }
+          h1.ex2:hover, h1.ex2:active {font-size: 60px;}
+          
+          h3.ex3{
+              font-weight:400;
+          }
+          h1.ex3:hover, h1.ex3:active{
+              background-color: aqua;
+          }

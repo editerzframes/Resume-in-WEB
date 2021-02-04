@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+      <link rel="icon" type="image/png" href="https://img.icons8.com/dusk/64/000000/monitor--v2.png"/>
+      
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+
+    <title>Form (Resume)</title>
+     
+      <style>
+          .border-rad{
+              border-radius: 25px;
+          }
+      </style>
+      
+  </head>
+  <body>
+      <section>
+      
+          <div class="container">
+          
+              <div class="row mt-4 border-rad p-2" style="background-color:#4ec9db">
+              
+                  <div class="col-2 mt-3">
+                  
+                  </div>
+                  <div class="col-8 mt-3">
+                      
+                  <form style="background-color: white">
+<div class="p-0"style="background-color: antiquewhite">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://png.pngtree.com/thumb_back/fh260/background/20191116/pngtree-minimalistic-style-stock-market-business-theme-web-banner-background-image_322190.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://png.pngtree.com/thumb_back/fh260/background/20201024/pngtree-technology-web-banner-style-background-design-image_433514.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://png.pngtree.com/thumb_back/fh260/background/20200811/pngtree-web-banner-india-independence-day-in-blue-background-image_388249.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+                      </div>
+            <div class="p-5">
+     <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Personal Information
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+          <div class="form-group">
+    <label for="exampleFormControlFile1">Choose your Photo</label>
+    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+  </div>
+         <br> 
+      <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="First name">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Last name">
+    </div>
+  </div><br>
+     <div class="mb-3">
+    <label for="postdesi" class="form-label">Headline</label>
+    <input type="text" class="form-control" id="postdesi" aria-describedby="nameHelp">
+  </div>
+      <div class="mb-3">
+    <label for="exampleInputName1" class="form-label">Age</label>
+    <input type="number" class="form-control" id="exampleInputName1" aria-describedby="nameHelp">
+  </div>
+          <div class="mb-3">
+          <div class="radio">
+               <label for="exampleInputName1" class="form-label">Gender</label><br>
+ <div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+  <label class="form-check-label" for="inlineRadio1">Male</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  <label class="form-check-label" for="inlineRadio2">Female</label>
+</div>
+</div>
+              </div>
+
+     <div class="mb-3">
+    <label for="exampleInputName1" class="form-label">Contact Number</label>
+    <input type="number" class="form-control" id="exampleInputName1" aria-describedby="nameHelp">
+  </div>
+     <div class="mb-3">
+    <label for="exampleInputName1" class="form-label">Email</label>
+    <input type="email" class="form-control" id="exampleInputName1" aria-describedby="nameHelp">
+  </div>
+       <div class="mb-3">
+          <label for="floatingTextarea">Career Objective</label>
+   <textarea class="form-control" placeholder="Enter your Text here" id="floatingTextarea"></textarea>
+  </div>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Qualification
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <h4>Qualification</h4><br>
+      <div class="mb-3">
+    <label for="postdesi" class="form-label">College Name</label>
+    <input type="text" class="form-control" id="postdesi" aria-describedby="nameHelp">
+  </div>
+     <div class="mb-3">
+    <label for="postdesi" class="form-label">Location</label>
+    <input type="text" class="form-control" id="postdesi" aria-describedby="nameHelp">
+  </div>
+     <div class="mb-3">
+    <label for="postdesi" class="form-label">Percentage</label>
+    <input type="text" class="form-control" id="postdesi" aria-describedby="nameHelp">
+  </div>
+     
+     <div class="mb-3">
+    <label for="postdesi" class="form-label">School Name (Xth)</label>
+    <input type="text" class="form-control" id="postdesi" aria-describedby="nameHelp">
+  </div>
+     <div class="mb-3">
+    <label for="postdesi" class="form-label">Location</label>
+    <input type="text" class="form-control" id="postdesi" aria-describedby="nameHelp">
+  </div>
+     <div class="mb-3">
+    <label for="postdesi" class="form-label">Percentage</label>
+    <input type="text" class="form-control" id="postdesi" aria-describedby="nameHelp">
+  </div>
+     
+     <div class="mb-3">
+    <label for="postdesi" class="form-label">School Name (XIIth)</label>
+    <input type="text" class="form-control" id="postdesi" aria-describedby="nameHelp">
+  </div>
+     <div class="mb-3">
+    <label for="postdesi" class="form-label">Location</label>
+    <input type="text" class="form-control" id="postdesi" aria-describedby="nameHelp">
+  </div>
+     <div class="mb-3">
+    <label for="postdesi" class="form-label">Percentage</label>
+    <input type="text" class="form-control" id="postdesi" aria-describedby="nameHelp">
+  </div>
+     
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Technical Skills
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      <div class="mb-3">
+          <label for="floatingTextarea">Select your Technical Skills</label><br>
+      
+    
+          
+          <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  <label class="form-check-label" for="inlineCheckbox1">HTML</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+  <label class="form-check-label" for="inlineCheckbox2">CSS</label>
+</div>
+          <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  <label class="form-check-label" for="inlineCheckbox1">Machine Learning</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+  <label class="form-check-label" for="inlineCheckbox2">Big Data Analytics</label>
+</div>
+          <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  <label class="form-check-label" for="inlineCheckbox1">JSP</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+  <label class="form-check-label" for="inlineCheckbox2">Spring MVC</label>
+</div>
+          <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  <label class="form-check-label" for="inlineCheckbox1">Photoshop</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+  <label class="form-check-label" for="inlineCheckbox2">Networking</label>
+</div>
+          <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  <label class="form-check-label" for="inlineCheckbox1">Python</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+  <label class="form-check-label" for="inlineCheckbox2">Angular</label>
+</div>
+          <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  <label class="form-check-label" for="inlineCheckbox1">React</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+  <label class="form-check-label" for="inlineCheckbox2">PHP</label>
+</div>
+         <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  <label class="form-check-label" for="inlineCheckbox1">Javascript</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+  <label class="form-check-label" for="inlineCheckbox2">Java</label>
+</div>
+  
+  </div>
+      </div>
+    </div>
+  </div>
+</div>
+     
+     <br>
+  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+</form>
+                  </div>
+                  <div class="col-2 mt-3">
+                  
+                  </div>
+              </div>
+          </div>
+      </section>
+ 
+  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</html>
